@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 70" width="100%" height="100%">
+  <defs>
+    <!-- Subtle luxury linear gold gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dfb76c" />
+      <stop offset="50%" stop-color="#c5a059" />
+      <stop offset="100%" stop-color="#9a7732" />
+    </linearGradient>
+    <linearGradient id="wineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67101f" />
+      <stop offset="100%" stop-color="#38050e" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Emblem: Architectural Diamond & Monogram IC -->
+  <g transform="translate(10, 5)">
+    <!-- Outer Octagonal / Diamond Frame -->
+    <rect x="5" y="5" width="50" height="50" rx="6" transform="rotate(45 30 30)" fill="url(#wineGrad)" stroke="url(#goldGrad)" stroke-width="1.8" />
+    <!-- Inner Fine Ring -->
+    <circle cx="30" cy="30" r="22" fill="none" stroke="rgba(223, 183, 108, 0.4)" stroke-width="1" stroke-dasharray="2 2" />
+    
+    <!-- Monogram 'I' and 'C' -->
+    <text x="23" y="38" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-1">I</text>
+    <text x="35" y="38" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="700" font-style="italic" fill="url(#goldGrad)" text-anchor="middle">C</text>
+
+    <!-- Top & Bottom Sparkle Accents -->
+    <circle cx="30" cy="9" r="1.5" fill="url(#goldGrad)" />
+    <circle cx="30" cy="51" r="1.5" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- Right Typography: Tailored Editorial Wordmark -->
+  <g transform="translate(85, 0)">
+    <!-- Prefix small text -->
+    <text x="2" y="22" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="9" font-weight="700" letter-spacing="4" fill="#8e8e98" text-transform="uppercase">THE</text>
+    
+    <!-- Main Brand Name in High-Fashion Serif -->
+    <text x="0" y="45" font-family="'Playfair Display', 'Alegreya', Georgia, serif" font-size="26" font-weight="800" letter-spacing="1.5" fill="#38050e">
+      INTENTIONAL <tspan fill="url(#goldGrad)" font-style="italic" font-weight="600">CHIC</tspan>
+    </text>
+
+    <!-- Subtitle Line -->
+    <text x="2" y="60" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="7.5" font-weight="600" letter-spacing="3.2" fill="#9a7732" text-transform="uppercase">
+      WEALTH &bull; INTENTIONAL LIVING &bull; QUIET LUXURY
+    </text>
+  </g>
+</svg>

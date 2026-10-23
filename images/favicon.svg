@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dfb76c" />
+      <stop offset="50%" stop-color="#c5a059" />
+      <stop offset="100%" stop-color="#9a7732" />
+    </linearGradient>
+    <linearGradient id="favWine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a0e17" />
+      <stop offset="100%" stop-color="#230308" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#favWine)" />
+  <rect x="12" y="12" width="40" height="40" rx="6" transform="rotate(45 32 32)" fill="none" stroke="url(#favGold)" stroke-width="2" />
+  <text x="24" y="40" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">I</text>
+  <text x="38" y="40" font-family="Georgia, serif" font-size="24" font-weight="700" font-style="italic" fill="url(#favGold)" text-anchor="middle">C</text>
+</svg>
